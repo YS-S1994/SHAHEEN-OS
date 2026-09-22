@@ -717,4 +717,9 @@
 
     <!-- Network Dialog -->
     <string name="action_check">"Check"</string>
+    <!-- SHAHEEN-OS compatibility resource aliases -->
+    <string name="about_aurora_store_title">@string/about_shaheen_os_title</string>
+    <string name="about_aurora_store_subtitle">@string/about_shaheen_os_subtitle</string>
+    <string name="about_aurora_store_summary">@string/about_shaheen_os_summary</string>
+
 </resources>
