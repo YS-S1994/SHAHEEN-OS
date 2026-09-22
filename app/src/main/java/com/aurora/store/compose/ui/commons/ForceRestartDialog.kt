@@ -17,7 +17,7 @@ import com.aurora.store.R
 import com.aurora.store.compose.preview.ThemePreviewProvider
 
 /**
- * Dialog for prompting users to restart Aurora Store
+ * Dialog for prompting users to restart SHAHEEN-OS
  * @param onConfirm Callback on confirmation
  * @param onDismiss Callback on dismissal
  */

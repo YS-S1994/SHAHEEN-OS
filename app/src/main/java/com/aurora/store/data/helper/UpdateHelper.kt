@@ -193,7 +193,7 @@ class UpdateHelper @Inject constructor(
     }
 
     /**
-     * Immediately drops Aurora Store's own update row, e.g. when the user turns the
+     * Immediately drops SHAHEEN-OS's own update row, e.g. when the user turns the
      * self-update preference off. The periodic check won't re-add it while disabled.
      */
     fun deleteSelfUpdate() {

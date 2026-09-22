@@ -2,7 +2,7 @@
 • Vortäuschungskonfiguration überarbeitet, um Speicherberechtigungen für Import-Export zu vermeiden
 • Option hinzufügt, um automatisch nach App-Updates zu suchen (erfordert ein funktionierendes und angemeldetes Konto)
 • Problem behoben, bei dem erforderliche Bibliotheken nicht mit Apps wie der Chrome- und Trichrome-Bibliothek installiert wurden
-• Das Download-Verzeichnis von Backups wird beim Sichern von Aurora Store ignoriert
+• Das Download-Verzeichnis von Backups wird beim Sichern von SHAHEEN-OS ignoriert
 • Shizuku implementiert (erfordert Android 8.0+)
 • Unterstützung für Android 4.4 eingestellt. Die mindestens erforderliche Android-Version ist 5.0+.
 • Kleinere Fehlerbehebungen und Verbesserungen

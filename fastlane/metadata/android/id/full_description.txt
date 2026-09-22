@@ -1,4 +1,4 @@
-Aurora Store adalah klien yang tidak resmi, FOSS untuk Google Play dengan desain yang elegan. Aurora Store memungkinkan pengguna mengunduh, memperbarui, dan mencari aplikasi seperti Play Store. Aplikasi ini bekerja dengan sempurna dengan atau tanpa Layanan Google Play atau microG.
+SHAHEEN-OS adalah klien yang tidak resmi, FOSS untuk Google Play dengan desain yang elegan. SHAHEEN-OS memungkinkan pengguna mengunduh, memperbarui, dan mencari aplikasi seperti Play Store. Aplikasi ini bekerja dengan sempurna dengan atau tanpa Layanan Google Play atau microG.
 
 <b>Fitur: </b>
 

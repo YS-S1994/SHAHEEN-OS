@@ -1,4 +1,4 @@
-Aurora Store, zərif dizaynı ilə Google Play üçün qeyri-rəsmi, FOSS müştəridir. Aurora Store istifadəçilərə Play Store kimi tətbiqləri yükləməyə, yeniləməyə və axtarmağa imkan verir. Google Play Xidmətləri və ya microG ilə yaxud olmadan mükəmməl işləyir.
+SHAHEEN-OS, zərif dizaynı ilə Google Play üçün qeyri-rəsmi, FOSS müştəridir. SHAHEEN-OS istifadəçilərə Play Store kimi tətbiqləri yükləməyə, yeniləməyə və axtarmağa imkan verir. Google Play Xidmətləri və ya microG ilə yaxud olmadan mükəmməl işləyir.
 
 Xüsusiyyətlər:
 

@@ -19,7 +19,7 @@ class FavouritePreviewProvider() : PreviewParameterProvider<Favourite> {
         get() = sequenceOf(
             Favourite(
                 packageName = BuildConfig.APPLICATION_ID,
-                displayName = "Aurora Store",
+                displayName = "SHAHEEN-OS",
                 iconURL = "",
                 added = 0L,
                 mode = Mode.MANUAL

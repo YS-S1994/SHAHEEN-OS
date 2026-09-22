@@ -42,7 +42,7 @@
     <string name="installer_status_failure_storage">儲存空間唔夠位</string>
     <string name="menu_license">授權協議</string>
     <string name="menu_terms">服務條款</string>
-    <string name="onboarding_permission_select">Aurora Store 須要下列權限</string>
+    <string name="onboarding_permission_select">SHAHEEN-OS 須要下列權限</string>
     <string name="onboarding_permission_esa">外置儲存空間存取</string>
     <string name="onboarding_permission_notifications">通知</string>
     <string name="pref_ui_layout">版面</string>

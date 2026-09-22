@@ -7,7 +7,7 @@
     <string name="about_paypal">פייפאל</string>
     <string name="about_libera">‏Liberapay</string>
     <string name="about_gitlab">‏GitLab</string>
-    <string name="about_fdroid_summary">הורדת Aurora Store דרך F-Droid.</string>
+    <string name="about_fdroid_summary">הורדת SHAHEEN-OS דרך F-Droid.</string>
     <string name="about_fdroid">‏F-Droid</string>
     <string name="about_bitcoin_btc_summary">תרומה דרך ביטקוין (BTC)</string>
     <string name="about_bitcoin_btc">ביטקוין</string>
@@ -61,7 +61,7 @@
     <string name="action_blacklist">רשימה שחורה</string>
     <string name="about_telegram_summary">הצטרף לקבוצת Aurora Support לדיונים או הצעות.</string>
     <string name="about_libera_summary">תמיכה ב-Liberapay</string>
-    <string name="about_gitlab_summary">השג את קוד המקור של Aurora Store מ-Aurora OSS ב-GitLab.</string>
+    <string name="about_gitlab_summary">השג את קוד המקור של SHAHEEN-OS מ-Aurora OSS ב-GitLab.</string>
     <string name="about_bitcoin_eth_summary">תרומה דרך אתריום (ETH)</string>
     <string name="about_bitcoin_eth">אתריום</string>
     <string name="about_bitcoin_bch_summary">תרומה דרך ביטקוין קאש (BCH)</string>
@@ -285,7 +285,7 @@
     <string name="download_progress">מוריד • <xliff:g id="completed_downloads">%1$d</xliff:g> / <xliff:g id="all_downloads">%2$d</xliff:g> • <xliff:g id="speed">%3$s</xliff:g></string>
     <string name="onboarding_permission_notifications_desc">שלח התראות לגבי מצב ההתקנה</string>
     <string name="android_market_desc">החנות של אנדרואיד הייתה חנות אונליין שמציעה אפליקציות שעוצבו למכשירי אנדרואיד, עד 2017.</string>
-    <string name="about_xda_summary">הצג את העמוד של Aurora Store בפורום XDA לשוחח ולהציע הצעות.</string>
+    <string name="about_xda_summary">הצג את העמוד של SHAHEEN-OS בפורום XDA לשוחח ולהציע הצעות.</string>
     <string name="about_bhim">BHIM - UPI</string>
     <string name="permissions_denied">ההרשאות הנדרשות נדחו. אנא אשר אותן בשביל המשך הפעולה</string>
     <string name="access_denied_using_vpn">הגישה נדחתה! האם נעשה שימוש ב־VPN או ב־Tor?</string>
@@ -313,8 +313,8 @@
     <string name="root_installer_desc">דורש הרשאות שורש/משתמש-על, תומך בכל גרסאות האנדרואיד.</string>
     <string name="services_installer_subtitle">מתקין להתקנות רקע</string>
     <string name="source_code_title">קוד מקור</string>
-    <string name="about_aurora_store_title">על חנות אורורה</string>
-    <string name="about_aurora_store_subtitle">למידע נוסף על חנות אורורה</string>
+    <string name="about_shaheen_os_title">על חנות אורורה</string>
+    <string name="about_shaheen_os_subtitle">למידע נוסף על חנות אורורה</string>
     <string name="source_code_subtitle">גלה מה יש בפנים</string>
     <string name="privacy_policy_title">מדיניות הפרטיות</string>
     <string name="disclaimer_subtitle">אחריות ואחריות</string>
@@ -334,7 +334,7 @@
     <string name="services_installer_desc">דורש התקנה של שירותי אורורה כאפליקציית מערכת מיוחסת</string>
     <string name="am_installer_subtitle">מנהל חבילות קוד פתוח מלא</string>
     <string name="title_more">יותר</string>
-    <string name="about_aurora_store_summary">חנות אורורה מאפשר לך לחפש ולהוריד יישומים מהחנות הרשמית של Google Play. ניתן לבדוק תיאורי יישומים, צילומי מסך, עדכונים, תגובות של משתמשים אחרים, ולהוריד את קובץ ה-APK ישירות מ-Google Play אל ההתקן שלך. כדי להשתמש בחנות אורורה, עליך להחזיק חשבון Google Play ולהתחבר אליו בעת פתיחה והגדרה ראשונית של חנות אורורה.\n\nבשונה מחנויות יישומים מסורתיות, חנות אורורה אינו מחזיק, רוכש רישוי או מפיץ יישומים. כל היישומים, תיאורי היישומים, צילומי המסך ותוכן נוסף בחנות אורורה ניגשים, מוצגים או מורדים ישירות מ-Google Play. חנות אורורה פועלת בדיוק כמו דפדפן או שער, המאפשר לך להתחבר לחשבון Google Play שלך ולמצוא יישומים מ-Google Play.\n\nלתשומת לבך: חנות אורורה אינה מאושרת, ממומנת או מורשה על ידי Google, Google Play, יישומים שהורדו דרך חנות אורורה או מפתחי יישומים; ואין לו כל שותפות, שיתוף פעולה או קשר איתם.</string>
+    <string name="about_shaheen_os_summary">חנות אורורה מאפשר לך לחפש ולהוריד יישומים מהחנות הרשמית של Google Play. ניתן לבדוק תיאורי יישומים, צילומי מסך, עדכונים, תגובות של משתמשים אחרים, ולהוריד את קובץ ה-APK ישירות מ-Google Play אל ההתקן שלך. כדי להשתמש בחנות אורורה, עליך להחזיק חשבון Google Play ולהתחבר אליו בעת פתיחה והגדרה ראשונית של חנות אורורה.\n\nבשונה מחנויות יישומים מסורתיות, חנות אורורה אינו מחזיק, רוכש רישוי או מפיץ יישומים. כל היישומים, תיאורי היישומים, צילומי המסך ותוכן נוסף בחנות אורורה ניגשים, מוצגים או מורדים ישירות מ-Google Play. חנות אורורה פועלת בדיוק כמו דפדפן או שער, המאפשר לך להתחבר לחשבון Google Play שלך ולמצוא יישומים מ-Google Play.\n\nלתשומת לבך: חנות אורורה אינה מאושרת, ממומנת או מורשה על ידי Google, Google Play, יישומים שהורדו דרך חנות אורורה או מפתחי יישומים; ואין לו כל שותפות, שיתוף פעולה או קשר איתם.</string>
     <string name="pref_clear_device_owner_title">נקה את בעל המכשיר</string>
     <string name="pref_clear_device_owner_summary">מסיר את חנות אורורה כאפליקציה לבעלי המכשיר</string>
     <string name="pref_dispenser_title">ניהול מתקנים</string>
@@ -351,8 +351,8 @@
     <string name="manage_account">נהל את החשבון שלך</string>
     <string name="add_dispenser_error">כתובת אתר לא חוקית</string>
     <string name="export_app_summary">רגע, ייצא את הקובץ שלך</string>
-    <string name="force_restart_title">הפעל מחדש את Aurora Store</string>
-    <string name="force_restart_summary">יש להפעיל מחדש את Aurora Store כדי להחיל את ההגדרות החדשות שהשתנו</string>
+    <string name="force_restart_title">הפעל מחדש את SHAHEEN-OS</string>
+    <string name="force_restart_summary">יש להפעיל מחדש את SHAHEEN-OS כדי להחיל את ההגדרות החדשות שהשתנו</string>
     <string name="export_app_title">מייצא הקבצים</string>
     <string name="action_favourite">מועדף</string>
     <string name="toast_fav_export_success">המועדפים יוצאו!</string>
@@ -485,14 +485,14 @@
     <string name="account_default">ברירת מחדל</string>
     <string name="account_remove">הסר</string>
     <string name="account_remove_title">להסיר חשבון?</string>
-    <string name="account_remove_message">להסיר %1$s מ־Aurora Store?</string>
-    <string name="account_remove_last_message">זהו החשבון היחיד שלך. הסרתו תוציא אותך מהמערכת, ולא תוכל להשתמש ב־Aurora Store עד שתיכנס שוב.</string>
+    <string name="account_remove_message">להסיר %1$s מ־SHAHEEN-OS?</string>
+    <string name="account_remove_last_message">זהו החשבון היחיד שלך. הסרתו תוציא אותך מהמערכת, ולא תוכל להשתמש ב־SHAHEEN-OS עד שתיכנס שוב.</string>
     <string name="account_add">הוסף חשבון</string>
     <string name="account_add_device">חשבונות מכשיר</string>
     <string name="account_add_google">היכנס עם Google</string>
     <string name="account_add_anonymous">הוסף חשבון אנונימי</string>
     <string name="account_set_default_title">להחליף חשבון ברירת מחדל?</string>
-    <string name="account_set_default_message">Aurora Store תופעל מחדש כדי להשתמש בחשבון ברירת מחדל החדש.</string>
+    <string name="account_set_default_message">SHAHEEN-OS תופעל מחדש כדי להשתמש בחשבון ברירת מחדל החדש.</string>
     <string name="account_switching">מחליף חשבון…</string>
     <string name="account_adding">מוסיף חשבון…</string>
     <string name="account_refresh_all">רענן את כל החשבונות</string>
@@ -511,10 +511,10 @@
     <string name="details_your_review">הביקורת שלך</string>
     <string name="installer_fallback_session">המתקין שנבחר אינו זמין, משתמש במתקין ברירת המחדל במקום זאת.</string>
     <string name="app_lock_title">נעילת יישומון</string>
-    <string name="app_lock_summary">דרוש אימות ביומטרי או באמצעות נעילת מסך כדי לפתוח את Aurora Store.</string>
+    <string name="app_lock_summary">דרוש אימות ביומטרי או באמצעות נעילת מסך כדי לפתוח את SHAHEEN-OS.</string>
     <string name="app_lock_no_credential">הגדר קודם נעילת מסך במכשיר שלך (קוד PIN, תבנית, סיסמה או ביומטריה).</string>
-    <string name="app_lock_locked_message">נדרש אימות כדי לגשת ל־Aurora Store</string>
+    <string name="app_lock_locked_message">נדרש אימות כדי לגשת ל־SHAHEEN-OS</string>
     <string name="app_lock_unlock">פתח נעילה</string>
-    <string name="app_lock_prompt_title">פתח נעילת Aurora Store</string>
+    <string name="app_lock_prompt_title">פתח נעילת SHAHEEN-OS</string>
     <string name="app_lock_prompt_subtitle">הכנס תבנית, קוד PIN, סיסמה או טביעת אצבע של נעילת המסך</string>
 </resources>

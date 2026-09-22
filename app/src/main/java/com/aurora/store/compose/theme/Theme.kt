@@ -27,7 +27,7 @@ import androidx.core.view.WindowCompat
 import com.aurora.store.util.Preferences
 
 /**
- * App theme for Aurora Store based on [MaterialExpressiveTheme]
+ * App theme for SHAHEEN-OS based on [MaterialExpressiveTheme]
  */
 @Composable
 fun AuroraTheme(content: @Composable () -> Unit) {

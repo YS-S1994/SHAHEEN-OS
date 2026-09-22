@@ -1,4 +1,4 @@
-Aurora Store 是個 Google Play 非官方 FOSS 客戶端，設計雅致。Aurora Store 讓使用者下載、更新和搜尋應用程式，有如 Play 商店一樣。不管有沒有 Google Play 服務或 MicroG 也運作如常。
+SHAHEEN-OS 是個 Google Play 非官方 FOSS 客戶端，設計雅致。SHAHEEN-OS 讓使用者下載、更新和搜尋應用程式，有如 Play 商店一樣。不管有沒有 Google Play 服務或 MicroG 也運作如常。
 
 <b>特色：</b>
 

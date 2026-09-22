@@ -39,7 +39,7 @@ Include as many relevant details about the environment you experienced the bug i
 For example:
 * Device model & codename: OnePlus 8T "instantnoodle"
 * Android version: 11.0.0
-* Aurora Store version: 4.0.2
+* SHAHEEN-OS version: 4.0.2
 * Nightly date: 2024-01-15
 * Account Type: Anonymous
 * Installation method: root/session/shizuku/app manager
@@ -48,7 +48,7 @@ For example:
 
 * Device model & codename:
 * Android version:
-* Aurora Store version:
+* SHAHEEN-OS version:
 * Nightly date:
 * Account Type:
 * Installation method:

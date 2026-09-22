@@ -1,141 +1,369 @@
-# Aurora Store
+<div align="center">
 
-Aurora Store enables you to search and download apps from the official Google Play store. You can check app descriptions, screenshots, updates, reviews, and download the APK directly from Google Play to your device. 
+<table width="100%">
+<tr>
+<td align="center" width="50%">
 
-To use Aurora Store, log in using Google Play account, when you first open and configure Aurora Store.
+<img src="assets/shaheen-1.jpg" alt="SHAHEEN-OS" width="100%">
 
-Unlike a traditional app store, Aurora Store does not own, license or distribute any apps. All apps, app descriptions, screenshots and other content in Aurora Store are directly accessed, downloaded and/or displayed from Google Play. 
+<br>
 
-Aurora Store works exactly like a door or a browser, allowing you to log in to your Google Play account and find the apps from Google Play. 
+<strong>SHAHEEN-OS</strong>
 
-*_Please note that Aurora Store does not have any approval, sponsorship or authorization from Google, Google Play, any apps downloaded through Aurora Store or any app developers; neither does Aurora Store have any affiliation, cooperation or connection with them._*
+<br>
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/com.aurora.store/)
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="90">](https://apt.izzysoft.de/fdroid/index/apk/com.aurora.store)
+<strong>Fly High, Code Free.</strong>
 
-## Features
+</td>
+<td align="center" width="50%">
 
-- FOSS: Has GPLv3 licence
-- Beautiful design: Built upon latest Material 3 guidelines
-- Account login: You can login with either personal or an anonymous account
-- Device & Locale spoofing: Change your device and/or locale to access geo locked apps
-- [Exodus Privacy](https://exodus-privacy.eu.org/) integration: Instantly see trackers in app
-- [Plexus](https://plexus.techlore.tech/) integration: Instantly see app compatibility without Google Play Services or with microG
-- Updates blacklisting: Ignore updates for specific apps
-- Download manager
-- Manual downloads: allows you to download older version of apps, provided
-  - The APKs are available with Google
-  - You know the version codes for older versions 
+<img src="assets/shaheen-2.jpg" alt="SHAHEEN-OS" width="100%">
 
-## Limitations
+<br>
 
-- The underlying API used is reversed engineered from the Google Play Store, changes on side may break it.
-- Provides only base minimum features
-  - Can not download or update paid apps.
-  - Can not update apps/games with [Play Asset Delivery](https://developer.android.com/guide/playcore/asset-delivery)
-- Multiple in-app features are not available if logged in as Anonymous.
-  - Library
-  - Purchase History
-  - Editor's choice
-  - Beta Programs
-  - Review Add/Update
-- Token dispenser server is not super reliable, downtimes are expected.  
+<strong>SHAHEEN-OS</strong>
 
-## AI Usage
+<br>
 
-Aurora Store is developed with the help of AI tooling. Here is what that means.
+<strong>Fly High, Code Free.</strong>
 
-**In this project**
+</td>
+</tr>
+</table>
 
-- AI assistance is used in day to day development: writing and refactoring code,
-  reviewing diffs, and drafting documentation.
-- Nothing gets merged that a maintainer has not read, understood and tested.
-  Generated code is a starting point, not a finished result.
-- Accountability does not change. Whatever ships in Aurora Store is the
-  maintainers' responsibility, no matter how it was written.
+</div>
 
-**In contributions**
+---
 
-- You are welcome to use AI tooling on your contributions. Just mention it in the
-  merge request description.
-- You are still responsible for what you send. Be ready to explain how your change
-  works, and to show that you built and tested it yourself.
-- Merge requests and issue reports that are plainly unreviewed model output (calls
-  to APIs that do not exist, unrelated changes, made up bug reports) will be closed
-  without review.
+🚀 SHAHEEN-OS
 
-## Downloads
+SHAHEEN-OS is an open-source Android application store client derived from the Aurora Store project.
 
-Please only download the latest stable releases from one of these sources:
+It provides a modern interface for searching, viewing and downloading Android applications available through Google Play services while maintaining the open-source nature and architectural principles of the original project.
 
-- [Official website](https://auroraoss.com/)
-- [GitLab Releases](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
-- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/com.aurora.store) (reproducible)
-- [F-Droid](https://f-droid.org/packages/com.aurora.store/) (signed by F-Droid, [more details](https://f-droid.org/docs/Signing_Process/))
-- [App Gallery](https://appgallery.huawei.com/app/C110907863) (limited to certain countries)
+SHAHEEN-OS is developed and maintained by:
 
-You can also get latest debug builds signed with AOSP test keys for testing latest changes from our [GitLab Package Registry](https://gitlab.com/AuroraOSS/AuroraStore/-/packages/24103616).
+> Yousef Z. A. Shaheen
 
-## Certificate Fingerprints
 
-- SHA1: 94:42:75:D7:59:8B:C0:3E:48:85:06:06:42:25:A7:19:90:A2:22:02
-- SHA256: 4C:62:61:57:AD:02:BD:A3:40:1A:72:63:55:5F:68:A7:96:63:FC:3E:13:A4:D4:36:9A:12:57:09:41:AA:28:0F
 
-## Support
+Project Information
 
-Aurora Store v4 is still in on-going development! Bugs are to be expected! Any bug reports are appreciated.
-Please visit [Aurora Wiki](https://gitlab.com/AuroraOSS/AuroraStore/-/wikis/home) for FAQs.
+Information	Details
 
-- [Telegram](https://t.me/AuroraSupport)
-- [XDA Developers](https://forum.xda-developers.com/t/app-5-0-aurora-store-open-source-google-play-client.3739733/)
+Project	SHAHEEN-OS
+Platform	Android
+Project Type	Open-Source Android Application
+License	GNU General Public License v3.0
+Developer	Yousef Z. A. Shaheen
+Rebranding	SHAHEEN-OS
+Project Launch / Rebranding Date	21 September 2026
+Original Project	Aurora Store
+Source Model	Open Source
+Primary Language	Kotlin / Android
+UI	Material Design / Material 3
+Repository	SHAHEEN-OS
+Domain	shaheen94s.mooo.com
 
-## Permissions
 
-- `android.permission.INTERNET` to download and install/update apps from the Google Play servers
-- `android.permission.ACCESS_NETWORK_STATE` to check internet availability
-- `android.permission.FOREGROUND_SERVICE` to download apps without interruption
-- `android.permission.FOREGROUND_SERVICE_DATA_SYNC` to download apps without interruption
-- `android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` to auto-update apps without interruption (optional)
-- `android.permission.MANAGE_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.READ_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.WRITE_EXTERNAL_STORAGE` to access the OBB directory to download APK expansion files for games or large apps
-- `android.permission.QUERY_ALL_PACKAGES` to check updates for all installed apps
-- `android.permission.REQUEST_INSTALL_PACKAGES` to install and update apps
-- `android.permission.REQUEST_DELETE_PACKAGES` to uninstall apps
-- `android.permission.ENFORCE_UPDATE_OWNERSHIP` to silently update apps
-- `android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION` to silently update apps
-- `android.permission.POST_NOTIFICATIONS` to notify user about ongoing downloads, available updates, and errors (optional)
-- `android.permission.USE_CREDENTIALS` to allow users to sign into their personal Google account via microG
 
-## Screenshots
+---
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-03.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-07.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-08.png" height="400">
+🌌 About
 
-## Translations
+SHAHEEN-OS provides an Android application-store experience that allows users to:
 
-Don't see your preferred language? Click on the widget below to help translate Aurora Store!
+Search for Android applications.
 
-<a href="https://hosted.weblate.org/engage/aurora-store/">
-  <img src="https://hosted.weblate.org/widgets/aurora-store/-/287x66-grey.png" alt="Translation status" />
-</a>
+View application information.
 
-## Donations
+View descriptions.
 
-You can support Aurora Store's development financially via options below. For more options, checkout the **About** page within the Aurora Store.
+View screenshots.
 
-[![Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/whyorean)
-<a href="https://www.paypal.com/paypalme/AuroraDev">
-  <img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" height="45" alt="PayPal">
-</a>
+View application updates.
 
-## Project references
+View reviews when supported.
 
-Aurora Store is based on these projects
+Download APK files.
 
-- [YalpStore](https://github.com/yeriomin/YalpStore)
-- [AppCrawler](https://github.com/Akdeniz/google-play-crawler)
-- [Raccoon](https://github.com/onyxbits/raccoon4)
-- [SAI](https://github.com/Aefyr/SAI)
+Manage application downloads.
+
+Use anonymous or authenticated access where supported.
+
+Change device and locale information where supported.
+
+Check application compatibility.
+
+Inspect application trackers through supported integrations.
+
+
+SHAHEEN-OS does not own, license or independently distribute the applications displayed through the service.
+
+Application information and downloadable content are retrieved through the underlying services used by the application.
+
+
+---
+
+✨ Overview
+
+SHAHEEN-OS is designed as an open-source Android client focused on providing a modern application-store interface while maintaining compatibility with the underlying Google Play ecosystem.
+
+The project inherits significant functionality from Aurora Store and its upstream open-source ecosystem.
+
+
+---
+
+🎯 Vision
+
+The vision of SHAHEEN-OS is to provide a modern, transparent and open-source Android application client with:
+
+Modern Android design.
+
+Simple application discovery.
+
+Efficient downloading.
+
+Privacy-conscious functionality.
+
+Open-source development.
+
+Transparent project documentation.
+
+Community participation.
+
+Long-term maintainability.
+
+
+
+---
+
+💡 Mission
+
+The mission of SHAHEEN-OS is to continue developing an accessible Android application client while preserving the principles of free and open-source software.
+
+
+---
+
+🔥 Highlights
+
+🚀 Modern Android application client
+
+🎨 Material 3 inspired interface
+
+🔓 Open-source development
+
+🔐 Privacy-conscious architecture
+
+📦 APK download management
+
+🔎 Application search
+
+📱 Device and locale spoofing
+
+🌍 Geo-availability support where provided
+
+🧩 Privacy and compatibility integrations
+
+🔄 Application update management
+
+👤 Anonymous account support
+
+🔑 Google account support
+
+🛠 Manual APK version downloads
+
+📚 Open documentation
+
+🤖 AI-assisted development workflow
+
+
+
+---
+
+⭐ Features
+
+🔎 Application Search
+
+Search for applications available through the underlying Google Play services.
+
+📱 Application Information
+
+View supported application metadata including:
+
+Application name
+
+Description
+
+Screenshots
+
+Version information
+
+Updates
+
+Reviews
+
+Compatibility information
+
+
+👤 Account Login
+
+SHAHEEN-OS supports account-based access where supported by the underlying services.
+
+Anonymous access is also available for supported functionality.
+
+🌍 Device & Locale Spoofing
+
+The application can provide device and/or locale spoofing functionality to access applications according to the capabilities of the underlying service.
+
+🕵️ Privacy Information
+
+Supported privacy integrations can provide information about trackers detected in applications.
+
+🔄 Updates
+
+Application updates can be discovered and managed through the application.
+
+📥 Download Manager
+
+SHAHEEN-OS includes download management functionality for supported APK downloads.
+
+🕰️ Manual Downloads
+
+Older application versions can be downloaded when:
+
+The requested version is available.
+
+The underlying service provides access to that version.
+
+The correct version code is known.
+
+
+
+---
+
+🧠 AI Capabilities
+
+AI is used as a development assistance tool rather than as a required runtime component of the Android application.
+
+AI assistance may be used for:
+
+Code generation.
+
+Code refactoring.
+
+Documentation.
+
+Debugging assistance.
+
+Code review.
+
+Development research.
+
+Test development.
+
+Repository maintenance.
+
+
+All generated code must remain subject to human review, testing and maintenance.
+
+
+---
+
+🤖 Supported Models
+
+SHAHEEN-OS does not require an AI model to operate as an Android application.
+
+AI models used during development may change independently of the application.
+
+No specific AI model is required for end users.
+
+
+---
+
+🔌 Integrations
+
+The project inherits or supports integrations associated with the original Aurora Store ecosystem where those integrations remain compatible with the SHAHEEN-OS codebase.
+
+Examples include:
+
+Exodus Privacy
+
+Plexus
+
+Google Play services
+
+microG-compatible environments where supported
+
+
+
+---
+
+🧩 Plugins
+
+SHAHEEN-OS does not currently define a standalone plugin marketplace.
+
+Additional integrations may be introduced through future development.
+
+
+---
+
+🛠 Tools
+
+Development may involve:
+
+Android Studio
+
+Gradle
+
+Kotlin
+
+Git
+
+GitHub / GitLab
+
+Android SDK
+
+Android Build Tools
+
+ADB
+
+Fastlane
+
+CI/CD tooling
+
+
+
+---
+
+🏗 Architecture
+
+SHAHEEN-OS is an Android application built around the architecture inherited from the Aurora Store project.
+
+The application communicates with the underlying Google Play-related services and presents the retrieved application information through its Android user interface.
+
+High-level architecture:
+
+┌──────────────────────────────┐
+│         SHAHEEN-OS           │
+│       Android Client         │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│      Application Services    │
+│  Search / Metadata / Updates │
+│      Download Management     │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│      Google Play Services    │
+│   Underlying Application API │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│      Application Packages    │
+│       Metadata / APKs        │
+└──────────────────────────────┘

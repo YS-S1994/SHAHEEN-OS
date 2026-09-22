@@ -1,4 +1,4 @@
-Aurora Store는 우아한 디자인의 Google Play에 대한, 비공식 FOSS 클라이언트입니다. Aurora Store를 사용하면 사용자가 Play Store와 같은 앱을 다운로드, 업데이트, 및 검색할 수 있습니다. Google Play 서비스 또는 MicroG의 유무에 관계없이 완벽하게 작동합니다.
+SHAHEEN-OS는 우아한 디자인의 Google Play에 대한, 비공식 FOSS 클라이언트입니다. SHAHEEN-OS를 사용하면 사용자가 Play Store와 같은 앱을 다운로드, 업데이트, 및 검색할 수 있습니다. Google Play 서비스 또는 MicroG의 유무에 관계없이 완벽하게 작동합니다.
  
 <b>특징:</b> 
  

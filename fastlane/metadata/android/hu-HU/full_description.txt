@@ -1,5 +1,5 @@
-Az Aurora Store egy nem hivatalos, nyílt forráskódú Google Play-kliens, elegáns dizájnnal.
-Az Aurora Store lehetővé teszi alkalmazások frissítését, letöltését és keresését, akárcsak a Google Play.
+Az SHAHEEN-OS egy nem hivatalos, nyílt forráskódú Google Play-kliens, elegáns dizájnnal.
+Az SHAHEEN-OS lehetővé teszi alkalmazások frissítését, letöltését és keresését, akárcsak a Google Play.
 Tökéletesen működik Google Play-szolgáltatások, illetve a microG nélkül is.
 
 <b>Funkciók:</b>

@@ -1,4 +1,4 @@
-Aurora Store est un client non officiel et libre de Google Play, doté d'un design élégant. Il permet de télécharger, de mettre à jour et de rechercher des applis comme sur le Play Store. Il fonctionne parfaitement avec ou sans les services Google Play ou microG.
+SHAHEEN-OS est un client non officiel et libre de Google Play, doté d'un design élégant. Il permet de télécharger, de mettre à jour et de rechercher des applis comme sur le Play Store. Il fonctionne parfaitement avec ou sans les services Google Play ou microG.
 
 <b>Fonctionnalités :</b>
 

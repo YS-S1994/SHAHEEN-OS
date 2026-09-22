@@ -8,7 +8,7 @@
 • Nové automatické aktualizácie aplikácií (v predvolenom nastavení povolené)
 • Nové automatické overovanie aktualizácií certifikátov
 • Podpora aktualizácií s rotáciou podpisového kľúča (zavedené po Androide 9.0+)
-• Automatické aktualizácie (Aurora Store) sú predvolene zakázané (povoliť v nastaveniach > aktualizovať)
+• Automatické aktualizácie (SHAHEEN-OS) sú predvolene zakázané (povoliť v nastaveniach > aktualizovať)
 • Native Installer a Aurora Services boli zastarané
 • Export nainštalovaných aplikácií už nevyžaduje povolenia na ukladanie
 • Minimálna požadovaná verzia Androidu pre aplikácie je teraz viditeľná na stránke podrobností aplikácie (Viac o tejto aplikácii > Informácie)

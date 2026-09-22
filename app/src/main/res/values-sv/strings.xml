@@ -288,7 +288,7 @@
     <string name="pref_updates_check_frequency_desc">Ange hur ofta Aurora söker efter appuppdateringar.</string>
     <string name="pref_aurora_only">Filtrera appar från andra källor.</string>
     <string name="toast_proxy_invalid">Ogiltig URL för proxy, kontrollera formatet!</string>
-    <string name="pref_aurora_only_desc">Kontrollera inte efter uppdateringar för appar installerade från källor utanför Aurora Store</string>
+    <string name="pref_aurora_only_desc">Kontrollera inte efter uppdateringar för appar installerade från källor utanför SHAHEEN-OS</string>
     <string name="toast_proxy_success">Inställningen av proxy lyckades</string>
     <string name="title_app_settings">Inställningar för appen</string>
     <string name="pref_updates_check_frequency">Automatisk uppdateringsfrekvens</string>
@@ -339,8 +339,8 @@
     <string name="native_installer_subtitle">Avsiktsbaserat installationsprogram, tillgängligt på alla enheter</string>
     <string name="source_code_title">Källkod</string>
     <string name="privacy_policy_title">Sekretesspolicy</string>
-    <string name="about_aurora_store_subtitle">Lär dig mer om Aurora Store</string>
-    <string name="pref_clear_device_owner_summary">Tar bort Aurora Store som enhetens ägare i appen</string>
+    <string name="about_shaheen_os_subtitle">Lär dig mer om SHAHEEN-OS</string>
+    <string name="pref_clear_device_owner_summary">Tar bort SHAHEEN-OS som enhetens ägare i appen</string>
     <string name="toast_fav_import_success">Favoriterna importerades!</string>
     <string name="toast_fav_export_success">Favoriterna exporterades!</string>
     <string name="toast_fav_export_failed">Exporteringen av favoriterna misslyckades!</string>
@@ -353,11 +353,11 @@
     <string name="notification_channel_install">Avisering vid installation</string>
     <string name="disclaimer_subtitle">Ansvarsskyldighet och förpliktelser</string>
     <string name="check_updates">Sök efter uppdateringar</string>
-    <string name="force_restart_title">Starta om Aurora Store</string>
+    <string name="force_restart_title">Starta om SHAHEEN-OS</string>
     <string name="toast_fav_import_failed">Importeringen av favoriterna misslyckades!</string>
     <string name="export_app_summary">Vänta lite, exporterar din fil</string>
     <string name="faqs_subtitle">Har du frågor? Ta reda på svaren</string>
-    <string name="privacy_policy_subtitle">Lär dig hur Aurora Store använder din data</string>
+    <string name="privacy_policy_subtitle">Lär dig hur SHAHEEN-OS använder din data</string>
     <string name="toast_app_unavailable">Appen är inte tillgänglig för din enhet</string>
     <string name="toast_permission_installer_required">Du behöver godkänna behörighet för installationsprogrammet först</string>
     <string name="item_required">Krävs</string>
@@ -404,15 +404,15 @@
     <string name="shizuku_installer_desc">Kräver Shizuku eller Sui, måste ställas in och beviljas tillstånd</string>
     <string name="manual_download_version_error">Versionskod kan endast innehålla siffror</string>
     <string name="made_with_love">Tillverkad med <xliff:g id="heart_emoji">%1$s</xliff:g> i Indien</string>
-    <string name="about_aurora_store_title">Om Aurora Store</string>
-    <string name="about_aurora_store_summary">Aurora Store gör att du kan söka efter och hämta appar från den officiella Google Play Store. Du kan se appbeskrivningar, skärmbilder, uppdateringar och andra användares kommentarer samt hämta APK-filen direkt från Google Play till din enhet. För att använda Aurora Store loggar du in med ett Google Play-konto när du först öppnar och konfigurerar appen.\n\nTill skillnad från en traditionell appbutik äger, licensierar eller distribuerar Aurora Store inga appar. Alla appar, appbeskrivningar, skärmbilder och allt annat innehåll i Aurora Store hämtas direkt från, laddas ned från och/eller visas från Google Play. Aurora Store fungerar precis som en dörr eller en webbläsare och gör det möjligt för dig att logga in på ditt Google Play-konto och hitta appar från Google Play.\n\nObservera att Aurora Store varken har något godkännande, stöd eller tillstånd från Google, Google Play, appar som hämtas via Aurora Store eller apputvecklare, och inte heller någon anknytning, något samarbete eller annan koppling till dem.</string>
+    <string name="about_shaheen_os_title">Om SHAHEEN-OS</string>
+    <string name="about_shaheen_os_summary">SHAHEEN-OS gör att du kan söka efter och hämta appar från den officiella Google Play Store. Du kan se appbeskrivningar, skärmbilder, uppdateringar och andra användares kommentarer samt hämta APK-filen direkt från Google Play till din enhet. För att använda SHAHEEN-OS loggar du in med ett Google Play-konto när du först öppnar och konfigurerar appen.\n\nTill skillnad från en traditionell appbutik äger, licensierar eller distribuerar SHAHEEN-OS inga appar. Alla appar, appbeskrivningar, skärmbilder och allt annat innehåll i SHAHEEN-OS hämtas direkt från, laddas ned från och/eller visas från Google Play. SHAHEEN-OS fungerar precis som en dörr eller en webbläsare och gör det möjligt för dig att logga in på ditt Google Play-konto och hitta appar från Google Play.\n\nObservera att SHAHEEN-OS varken har något godkännande, stöd eller tillstånd från Google, Google Play, appar som hämtas via SHAHEEN-OS eller apputvecklare, och inte heller någon anknytning, något samarbete eller annan koppling till dem.</string>
     <string name="pref_clear_device_owner_title">Rensa enhetsägare</string>
     <string name="pref_clear_device_owner_desc">Detta kommer att återkalla sessionsinstallerarens tillstånd att tyst installera appar. Fortsätt med rensa enhet ägande?</string>
     <string name="pref_dispenser_title">Hantera fördelare</string>
     <string name="pref_dispenser_summary">Visa och hantera tokenutdelare för anonyma inloggningar</string>
     <string name="no_dispensers_available">Inga utdelare tillgängliga</string>
     <string name="add_dispenser_title">Lägg till utdelare</string>
-    <string name="add_dispenser_summary">Lägg till en tokenutdelare till Aurora Store. Tokenutdelare ger kontouppgifter till Aurora Store för anonym inloggning.</string>
+    <string name="add_dispenser_summary">Lägg till en tokenutdelare till SHAHEEN-OS. Tokenutdelare ger kontouppgifter till SHAHEEN-OS för anonym inloggning.</string>
     <string name="add_dispenser_hint">Dispenser-URL</string>
     <string name="remove_dispenser_title">Ta bort utdelare?</string>
     <string name="remove_dispenser_summary">Vill du ta bort utdelaren \"<xliff:g id="url">%1$s</xliff:g>\"?</string>
@@ -424,7 +424,7 @@
     <string name="export_app_summary_fail">Misslyckades att exportera appbunt</string>
     <string name="checking_updates">Söker efter uppdateringar</string>
     <string name="force_restart_snack">Starta om att tillämpa ändringar?</string>
-    <string name="force_restart_summary">Aurora Store måste startas om för att tillämpa de nyligen ändrade inställningarna</string>
+    <string name="force_restart_summary">SHAHEEN-OS måste startas om för att tillämpa de nyligen ändrade inställningarna</string>
     <string name="authentication_required_title">Autentisering krävs</string>
     <string name="authentication_required_unarchive">Logga in på ditt Google Play-konto för att packa upp appen!</string>
     <string name="no_description">Ingen beskrivning tillgänglig</string>
@@ -481,14 +481,14 @@
     <string name="account_default">Standard</string>
     <string name="account_remove">Ta bort</string>
     <string name="account_remove_title">Ta bort konto?</string>
-    <string name="account_remove_message">Ta bort %1$s från Aurora Store?</string>
-    <string name="account_remove_last_message">Det här är ditt konto. Att ta bort det kommer logga ut dig och du kommer inte kunna använda Aurora Store tills du loggar in igen.</string>
+    <string name="account_remove_message">Ta bort %1$s från SHAHEEN-OS?</string>
+    <string name="account_remove_last_message">Det här är ditt konto. Att ta bort det kommer logga ut dig och du kommer inte kunna använda SHAHEEN-OS tills du loggar in igen.</string>
     <string name="account_add">Lägg till konto</string>
     <string name="account_add_device">Enhetskonton</string>
     <string name="account_add_google">Logga in med Google</string>
     <string name="account_add_anonymous">Lägg till anonymt konto</string>
     <string name="account_set_default_title">Byt standardkonto?</string>
-    <string name="account_set_default_message">Aurora Store behöver starta om för att använda det nya standardkontot.</string>
+    <string name="account_set_default_message">SHAHEEN-OS behöver starta om för att använda det nya standardkontot.</string>
     <string name="account_switching">Byter konto…</string>
     <string name="account_adding">Lägger till konto…</string>
     <string name="account_exists">Kontot har redan lagts till.</string>
@@ -508,12 +508,12 @@
     <string name="exodus_latest">Senaste</string>
     <string name="title_security">Säkerhet</string>
     <string name="app_lock_title">Applås</string>
-    <string name="app_lock_locked_message">Autentisering krävs för att komma åt Aurora Store</string>
+    <string name="app_lock_locked_message">Autentisering krävs för att komma åt SHAHEEN-OS</string>
     <string name="app_lock_unlock">Lås upp</string>
-    <string name="app_lock_prompt_title">Lås upp Aurora Store</string>
+    <string name="app_lock_prompt_title">Lås upp SHAHEEN-OS</string>
     <string name="confirm_deeplink_title">Bekräfta externa länkar</string>
-    <string name="confirm_deeplink_sheet_title">Fortsätt till Aurora Store?</string>
-    <string name="confirm_deeplink_sheet_message">En extern app vill öppna Aurora Store</string>
+    <string name="confirm_deeplink_sheet_title">Fortsätt till SHAHEEN-OS?</string>
+    <string name="confirm_deeplink_sheet_message">En extern app vill öppna SHAHEEN-OS</string>
     <string name="confirm_deeplink_sheet_source">Öppnad från %1$s</string>
     <string name="notification_channel_alerts">Fel &amp; varningar</string>
     <string name="notification_group_activity">Nedladdningar &amp; uppdateringar</string>
@@ -521,7 +521,7 @@
     <string name="pref_updates_warn_trackers">Varna för nya spårare i appuppdateringar</string>
     <string name="pref_self_update">Självuppdatera</string>
     <string name="pref_source_filters_title">Filtrera appar från andra källor</string>
-    <string name="pref_source_filters_desc_all">Skippa varje app inte installerad av Aurora Store</string>
+    <string name="pref_source_filters_desc_all">Skippa varje app inte installerad av SHAHEEN-OS</string>
     <string name="tracker_warning_title">Inga spårare upptäckta</string>
     <string name="tracker_warning_desc">Den här uppdateringen lägger till spårare som inte fanns i den installerade versionen:</string>
     <string name="title_install_favourites">Installera favoriter?</string>
@@ -530,7 +530,7 @@
     <string name="pref_notification_progress">Visa nedladdningsförlopp</string>
     <string name="pref_notification_categories">Kategorier</string>
     <string name="pref_notification_disabled">Notifieringar är avstängda</string>
-    <string name="pref_notification_disabled_desc">Klicka för att sätta på Notifieringar för Aurora Store</string>
+    <string name="pref_notification_disabled_desc">Klicka för att sätta på Notifieringar för SHAHEEN-OS</string>
     <string name="updates_incompatible_header">Inkompatibla uppdateringar</string>
     <string name="updates_incompatible_desc">De här systemapparna kan inte installeras på detta operativsystem</string>
     <string name="pref_source_filters_desc_none">Inga installationsprogram har uteslutits</string>
@@ -577,14 +577,14 @@
     <string name="installed_updated_at">Uppdaterad <xliff:g id="when">%1$s</xliff:g></string>
     <string name="action_check">Kontrollera</string>
     <string name="installer_fallback_session">Det valda installationsprogrammet är inte tillgängligt. Standardinstallationsprogrammet används i stället.</string>
-    <string name="app_lock_summary">Kräv biometrisk autentisering eller skärmlåsautentisering för att öppna Aurora Store.</string>
+    <string name="app_lock_summary">Kräv biometrisk autentisering eller skärmlåsautentisering för att öppna SHAHEEN-OS.</string>
     <string name="app_lock_no_credential">Konfigurera först ett skärmlås (PIN-kod, mönster, lösenord eller biometrisk autentisering) på enheten.</string>
     <string name="app_lock_prompt_subtitle">Ange telefonens skärmlåsmönster, PIN-kod, lösenord eller fingeravtryck</string>
-    <string name="pref_self_update_desc">Erbjud nya versioner av Aurora Store på fliken Uppdateringar.</string>
+    <string name="pref_self_update_desc">Erbjud nya versioner av SHAHEEN-OS på fliken Uppdateringar.</string>
     <string name="pref_notification_progress_desc">Visa detaljerat förlopp när appar hämtas och uppdateras. När alternativet är avstängt håller en enda diskret avisering hämtningarna igång i bakgrunden.</string>
     <string name="pref_notification_categories_desc">Anpassa ljud och prioritet för varje typ av avisering</string>
     <string name="updates_self_header">Självuppdatering</string>
-    <string name="updates_self_desc">En nyare version av Aurora Store är tillgänglig</string>
+    <string name="updates_self_desc">En nyare version av SHAHEEN-OS är tillgänglig</string>
     <string name="status_installing">Installerar</string>
     <string name="status_installed">Installerad</string>
     <plurals name="notification_installed_summary">
@@ -596,7 +596,7 @@
         <item quantity="other">Installationen av %d appar misslyckades</item>
     </plurals>
     <string name="details_review_delete_message">Ditt betyg och din recension tas bort från Google Play.</string>
-    <string name="confirm_deeplink_summary">Fråga innan en applistning öppnas från en länk, så att annonser inte kan starta Aurora Store utan ditt samtycke.</string>
+    <string name="confirm_deeplink_summary">Fråga innan en applistning öppnas från en länk, så att annonser inte kan starta SHAHEEN-OS utan ditt samtycke.</string>
     <string name="install_favourites_warning">Du kan få en separat installationsfråga för varje app.</string>
     <string name="pref_ui_dynamic_color">Dynamiska färger</string>
     <string name="pref_ui_dynamic_color_desc">Använd färger från bakgrundsbilden. Stäng av alternativet för Auroras varumärkesfärgpalett.</string>

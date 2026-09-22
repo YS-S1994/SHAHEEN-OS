@@ -95,6 +95,6 @@ private fun InstalledAppListItemPreview(@PreviewParameter(AppPreviewProvider::cl
         app = app,
         sizeBytes = 54_300_000L,
         lastUpdateTime = System.currentTimeMillis() - DateUtils.DAY_IN_MILLIS * 5,
-        installerLabel = "Aurora Store"
+        installerLabel = "SHAHEEN-OS"
     )
 }

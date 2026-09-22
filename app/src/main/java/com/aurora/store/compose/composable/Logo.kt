@@ -29,7 +29,7 @@ import com.aurora.store.R
 import com.aurora.store.compose.preview.ThemePreviewProvider
 
 /**
- * Composable to show Aurora Store's logo
+ * Composable to show SHAHEEN-OS's logo
  */
 @Composable
 fun Logo(modifier: Modifier = Modifier) {

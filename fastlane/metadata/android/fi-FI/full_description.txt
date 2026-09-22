@@ -1,4 +1,4 @@
-Aurora Store on Google Play:n epävirallinen FOSS-asiakas, jolla on tyylikäs muotoilu. Aurora Store:n avulla käyttäjät voivat ladata, päivittää ja etsiä sovelluksia, kuten Play Kaupassa. Se toimii täydellisesti sekä Google Play Palveluiden tai microG:n kanssa, että ilman niitä.
+SHAHEEN-OS on Google Play:n epävirallinen FOSS-asiakas, jolla on tyylikäs muotoilu. SHAHEEN-OS:n avulla käyttäjät voivat ladata, päivittää ja etsiä sovelluksia, kuten Play Kaupassa. Se toimii täydellisesti sekä Google Play Palveluiden tai microG:n kanssa, että ilman niitä.
 
 <b>Ominaisuudet:</b>
 

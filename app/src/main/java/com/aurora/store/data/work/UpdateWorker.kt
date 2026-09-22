@@ -46,7 +46,7 @@ import kotlinx.serialization.json.Json
  * A worker that drives periodic app-update checks. The repeat interval is configurable
  * by the user, defaulting to 3 hours with a flex time of 30 minutes.
  *
- * Aurora Store's own update is fetched from the bundled release/nightly feed and added
+ * SHAHEEN-OS's own update is fetched from the bundled release/nightly feed and added
  * to the regular update list (see [getSelfUpdate]); from there it reuses the standard
  * download + install pipeline. It is never auto-installed silently — the user triggers
  * it from the Updates tab.
@@ -138,7 +138,7 @@ class UpdateWorker @AssistedInject constructor(
                 return Result.success()
             }
 
-            // Clean the update list to prepare for installing. Aurora Store's own update
+            // Clean the update list to prepare for installing. SHAHEEN-OS's own update
             // is never installed silently — the user triggers it from the Updates tab.
             val filteredUpdates = updates
                 .filter { it.hasValidCert }
@@ -221,7 +221,7 @@ class UpdateWorker @AssistedInject constructor(
                 .filter { PackageUtil.isUpdatable(context, it.packageName, it.versionCode) }
                 .toMutableList()
 
-            // Aurora Store's own update comes from the feed, not Play. When one is
+            // SHAHEEN-OS's own update comes from the feed, not Play. When one is
             // offered, add it; otherwise drop any stale self-update row. This is the
             // cleanup path for the row (nightly self-updates are exempt from
             // deleteInvalidUpdates, and the install event isn't delivered reliably when
@@ -245,7 +245,7 @@ class UpdateWorker @AssistedInject constructor(
     }
 
     /**
-     * Fetches Aurora Store's own update from the bundled release/nightly feed and maps
+     * Fetches SHAHEEN-OS's own update from the bundled release/nightly feed and maps
      * it onto an [App] so it joins the regular update list. Nightly version codes never
      * bump, so newness is decided by the build timestamp there; release uses the version
      * code. Best-effort: any failure logs and yields no update.

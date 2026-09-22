@@ -53,3 +53,8 @@ signing.properties
 
 
 .kotlin/*
+
+# SHAHEEN-OS local backup files
+.shaheen-brand-backup-*/
+.shaheen-icon-backup-*/
+README.shaheen-backup-*.md

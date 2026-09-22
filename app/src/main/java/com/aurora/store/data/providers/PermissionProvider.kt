@@ -43,7 +43,7 @@ class PermissionProvider(private val fragment: Fragment) :
     companion object {
 
         /**
-         * Checks if Aurora Store has permissions to install the given app
+         * Checks if SHAHEEN-OS has permissions to install the given app
          */
         fun isPermittedToInstall(context: Context, app: App): Boolean {
             if (!isGranted(context, PermissionType.INSTALL_UNKNOWN_APPS)) return false
@@ -85,7 +85,7 @@ class PermissionProvider(private val fragment: Fragment) :
             }
 
         /**
-         * Returns all known permissions that can be requested by Aurora Store
+         * Returns all known permissions that can be requested by SHAHEEN-OS
          */
         fun getAllKnownPermissions(context: Context): List<Permission> {
             val permissions = mutableListOf(

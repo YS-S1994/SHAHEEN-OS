@@ -16,7 +16,7 @@ import com.aurora.store.R
 import com.aurora.store.compose.preview.ThemePreviewProvider
 
 /**
- * Dialog for displaying information about Aurora Store
+ * Dialog for displaying information about SHAHEEN-OS
  * @param onDismiss Callback on dismiss
  */
 @Composable

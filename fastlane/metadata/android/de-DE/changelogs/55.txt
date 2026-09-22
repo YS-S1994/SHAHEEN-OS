@@ -1,5 +1,5 @@
 • Wichtige interne Änderungen am Downloadsystem
-• Aurora Store benötigt jetzt eine neue Berechtigung für Downloads im Hintergrund
+• SHAHEEN-OS benötigt jetzt eine neue Berechtigung für Downloads im Hintergrund
 • Die Funktionen "Pause" und "Fortsetzen" wurden für Downloads abgeschafft
 • Gleichzeitige Downloads werden nicht mehr unterstützt (nur noch ein Download zur gleichen Zeit)
 • Automatische SHA256- und SHA1-Verifizierung für heruntergeladene Dateien
@@ -8,7 +8,7 @@
 • Neue automatische Updates für Apps (standardmäßig aktiviert)
 • Neue automatische Zertifikatsüberprüfung für Updates
 • Unterstützung für Updates mit Signierschlüsselrotation (eingeführt nach Android 9.0+)
-• Selbst-Updates (Aurora Store) wurden standardmäßig deaktiviert (Aktivierung in Einstellungen > Update)
+• Selbst-Updates (SHAHEEN-OS) wurden standardmäßig deaktiviert (Aktivierung in Einstellungen > Update)
 • Native Installer und Aurora Services wurden abgeschafft
 • Das Exportieren installierter Apps erfordert keine Speicherberechtigungen mehr
 • Die minimal erforderliche Android-Version für Apps ist nun auf der App-Detailseite sichtbar (Mehr über diese App > Info)

@@ -47,7 +47,7 @@
     <string name="purchase_invalid">Applicazione non acquistata</string>
     <string name="pref_filter_fdroid_title">Escludi le app provenienti da F-Droid</string>
     <string name="pref_filter_fdroid_summary">Non controllare gli aggiornamenti per le app installate da F-Droid</string>
-    <string name="onboarding_permission_installer_desc">Consenti l\'installazione di app da Aurora Store</string>
+    <string name="onboarding_permission_installer_desc">Consenti l\'installazione di app da SHAHEEN-OS</string>
     <string name="installer_status_failure_incompatible">App incompatibile</string>
     <string name="details_think_this_app">Cosa ne pensi di questa app?</string>
     <string name="details_more_about_app">Altre informazioni sull\'app</string>
@@ -86,7 +86,7 @@
     <string name="action_share">Condividi</string>
     <string name="action_search">Cerca</string>
     <string name="action_resume">Riprendi</string>
-    <string name="about_xda_summary">Vedi la discussione su Aurora Store nel forum XDA per dibattiti o suggerimenti.</string>
+    <string name="about_xda_summary">Vedi la discussione su SHAHEEN-OS nel forum XDA per dibattiti o suggerimenti.</string>
     <string name="about_xda">Forum XDA</string>
     <string name="about_telegram_summary">Unisciti al gruppo di supporto Aurora per discussioni o suggerimenti.</string>
     <string name="action_restart">Riavvia</string>
@@ -129,9 +129,9 @@
     <string name="about_paypal">PayPal</string>
     <string name="about_libera_summary">Diventa sostenitore su Liberapay</string>
     <string name="about_libera">Liberapay</string>
-    <string name="about_gitlab_summary">Ottieni il codice sorgente di Aurora Store da Aurora OSS su GitLab.</string>
+    <string name="about_gitlab_summary">Ottieni il codice sorgente di SHAHEEN-OS da Aurora OSS su GitLab.</string>
     <string name="about_gitlab">GitLab</string>
-    <string name="about_fdroid_summary">Ottieni Aurora Store tramite F-Droid.</string>
+    <string name="about_fdroid_summary">Ottieni SHAHEEN-OS tramite F-Droid.</string>
     <string name="about_fdroid">F-Droid</string>
     <string name="about_bitcoin_eth_summary">Dona via Ethereum (ETH)</string>
     <string name="about_bitcoin_eth">Ethereum</string>
@@ -174,7 +174,7 @@
     <string name="onboarding_title_welcome">Benvenuti</string>
     <string name="onboarding_title_permissions">Autorizzazioni</string>
     <string name="onboarding_title_installer">Installatore</string>
-    <string name="onboarding_permission_select">Aurora Store richiede le seguenti autorizzazioni</string>
+    <string name="onboarding_permission_select">SHAHEEN-OS richiede le seguenti autorizzazioni</string>
     <string name="dialog_title_self_update">Nuovo aggiornamento disponibile</string>
     <string name="device_miui_extra">Facoltativamente puoi scegliere l\'installatore nativo, ma in tal caso non sarà possibile installare APK in bundle (divisi).</string>
     <string name="device_miui_description">Si prega di disattivare le ottimizzazioni MIUI per consentire le installazioni, altrimenti è possibile scegliere installatore Root o Services.</string>
@@ -277,7 +277,7 @@
     <string name="failed_generating_session">Errore nella generazione della sessione, codice: <xliff:g id="status_code">%1$d</xliff:g></string>
     <string name="check_connectivity">Controlla la tua connessione ad internet</string>
     <string name="app_language">Lingua dell\'app</string>
-    <string name="app_links_desc">Consenti a Aurora Store di aprire i collegamenti supportati</string>
+    <string name="app_links_desc">Consenti a SHAHEEN-OS di aprire i collegamenti supportati</string>
     <string name="failed_to_generate_session">Impossibile generare la sessione</string>
     <string name="verifying_new_session">Verifica della nuova sessione</string>
     <string name="app_links_title">Collegamenti app</string>
@@ -285,7 +285,7 @@
     <string name="details_ratings_title_hint">Titolo della recensione</string>
     <string name="android_market_desc">Android Market era un negozio online che offriva applicazioni software progettate per dispositivi Android, chiuso nel 2017.</string>
     <string name="pref_network_proxy_url">URL del proxy</string>
-    <string name="pref_updates_check_frequency_desc">La frequenza con cui Aurora Store controlla gli aggiornamenti delle app.</string>
+    <string name="pref_updates_check_frequency_desc">La frequenza con cui SHAHEEN-OS controlla gli aggiornamenti delle app.</string>
     <string name="toast_proxy_success">Proxy impostato con successo</string>
     <string name="title_app_settings">Impostazioni app</string>
     <string name="pref_updates_check_frequency">Frequenza degli aggiornamenti automatici</string>
@@ -296,7 +296,7 @@
     <string name="onboarding_permission_doze">Scaricamenti in background</string>
     <string name="toast_proxy_invalid">URL proxy non valido, controlla il formato!</string>
     <string name="pref_aurora_only_desc">Non controllare gli aggiornamenti per le app installate da altre fonti</string>
-    <string name="onboarding_permission_doze_desc">Consenti ad Aurora Store di scaricare e aggiornare le app in background</string>
+    <string name="onboarding_permission_doze_desc">Consenti ad SHAHEEN-OS di scaricare e aggiornare le app in background</string>
     <string name="pref_updates_auto">Aggiornamenti automatici</string>
     <string name="pref_updates_auto_notify">Controlla e segnala gli aggiornamenti disponibili</string>
     <string name="pref_updates_auto_off">Non aggiornare le app automaticamente</string>
@@ -313,7 +313,7 @@
     <string name="source_code_title">Codice sorgente</string>
     <string name="source_code_subtitle">Scopri cosa c\'è dentro</string>
     <string name="privacy_policy_title">Informativa sulla privacy</string>
-    <string name="privacy_policy_subtitle">Scopri come Aurora Store utilizza i tuoi dati</string>
+    <string name="privacy_policy_subtitle">Scopri come SHAHEEN-OS utilizza i tuoi dati</string>
     <string name="disclaimer_subtitle">Responsabilità</string>
     <string name="session_installer_desc">Consigliato, integrato e supporta tutte le versioni di Android</string>
     <string name="root_installer_subtitle">Installatore shell che usa permessi di root</string>
@@ -337,16 +337,16 @@
     <string name="about_wiki_title">Wiki</string>
     <string name="about_wiki_summary">Trova le risposte alle domande più frequenti, i passaggi per la risoluzione dei problemi e altro ancora</string>
     <string name="pref_clear_device_owner_title">Cancella il proprietario del dispositivo</string>
-    <string name="pref_clear_device_owner_summary">Rimuove Aurora Store come app proprietaria del dispositivo</string>
+    <string name="pref_clear_device_owner_summary">Rimuove SHAHEEN-OS come app proprietaria del dispositivo</string>
     <string name="add_dispenser_error">URL non valido</string>
     <string name="pref_clear_device_owner_desc">L\'autorizzazione dell\'installatore di sessione a installare silenziosamente l\'app verrà revocata. Procedere con la cancellazione della proprietà del dispositivo?</string>
     <string name="pref_dispenser_summary">Visualizza e gestisci i distributori di token per i login anonimi</string>
     <string name="no_dispensers_available">Nessun distributore disponibile</string>
-    <string name="add_dispenser_summary">Aggiungi un distributore di token ad Aurora Store. I distributori di token forniscono le credenziali dell\'account ad Aurora Store per l\'accesso anonimo.</string>
+    <string name="add_dispenser_summary">Aggiungi un distributore di token ad SHAHEEN-OS. I distributori di token forniscono le credenziali dell\'account ad SHAHEEN-OS per l\'accesso anonimo.</string>
     <string name="add_dispenser_hint">URL distributore</string>
     <string name="remove_dispenser_summary">Desideri rimuovere il distributore \"<xliff:g id="url">%1$s</xliff:g>\"?</string>
-    <string name="about_aurora_store_subtitle">Ottieni maggiori informazioni su Aurora Store</string>
-    <string name="about_aurora_store_title">Informazioni su Aurora Store</string>
+    <string name="about_shaheen_os_subtitle">Ottieni maggiori informazioni su SHAHEEN-OS</string>
+    <string name="about_shaheen_os_title">Informazioni su SHAHEEN-OS</string>
     <string name="session_login">Accedi al tuo account Google Play</string>
     <string name="toast_app_unavailable">App non disponibile per il tuo dispositivo</string>
     <string name="export_app_summary">Attendi, esportazione del file in corso</string>
@@ -369,8 +369,8 @@
     <string name="action_logout_confirmation_message">Vuoi davvero disconnetterti?</string>
     <string name="export_app_title">Esportazione file</string>
     <string name="check_updates">Controlla gli aggiornamenti</string>
-    <string name="force_restart_title">Riavvia Aurora Store</string>
-    <string name="force_restart_summary">Aurora Store deve essere riavviato per applicare le nuove impostazioni</string>
+    <string name="force_restart_title">Riavvia SHAHEEN-OS</string>
+    <string name="force_restart_summary">SHAHEEN-OS deve essere riavviato per applicare le nuove impostazioni</string>
     <string name="export_app_summary_success">Bundle dell\'app esportato correttamente</string>
     <string name="export_app_summary_fail">Impossibile esportare il bundle dell\'app</string>
     <string name="notification_channel_export">Notifica di esportazione dell\'app</string>
@@ -384,7 +384,7 @@
     <string name="status_unavailable">Non disponibile</string>
     <string name="authentication_required_title">Autenticazione richiesta</string>
     <string name="authentication_required_unarchive">Accedi al tuo account Google Play per disarchiviare l\'applicazione!</string>
-    <string name="about_aurora_store_summary">Aurora Store consente di cercare e scaricare applicazioni da canali ufficiali di Google Play. È possibile controllare le descrizioni delle app, gli screenshot, gli aggiornamenti, i commenti degli altri utenti e scaricare l\'APK direttamente da Google Play sul proprio dispositivo. Per utilizzare Aurora Store, si accede al proprio account Google Play quando si apre e si configura Aurora Store per la prima volta.\n\nA differenza di un app store tradizionale, Aurora Store non possiede, non concede in licenza e non distribuisce alcuna app. Tutte le app, le loro descrizioni, le schermate e gli altri contenuti di Aurora Store sono direttamente accessibili, scaricati e/o visualizzati da Google Play. Aurora Store funziona esattamente come un client o un browser, consentendo di accedere al proprio account Google Play e di trovare le app da Google Play.\n\nNota bene che Aurora Store non ha alcuna approvazione, sponsorizzazione o autorizzazione da parte di Google, di Google Play, delle app scaricate attraverso Aurora Store o degli sviluppatori di app; Aurora Store non ha alcuna affiliazione, collaborazione o collegamento con loro.</string>
+    <string name="about_shaheen_os_summary">SHAHEEN-OS consente di cercare e scaricare applicazioni da canali ufficiali di Google Play. È possibile controllare le descrizioni delle app, gli screenshot, gli aggiornamenti, i commenti degli altri utenti e scaricare l\'APK direttamente da Google Play sul proprio dispositivo. Per utilizzare SHAHEEN-OS, si accede al proprio account Google Play quando si apre e si configura SHAHEEN-OS per la prima volta.\n\nA differenza di un app store tradizionale, SHAHEEN-OS non possiede, non concede in licenza e non distribuisce alcuna app. Tutte le app, le loro descrizioni, le schermate e gli altri contenuti di SHAHEEN-OS sono direttamente accessibili, scaricati e/o visualizzati da Google Play. SHAHEEN-OS funziona esattamente come un client o un browser, consentendo di accedere al proprio account Google Play e di trovare le app da Google Play.\n\nNota bene che SHAHEEN-OS non ha alcuna approvazione, sponsorizzazione o autorizzazione da parte di Google, di Google Play, delle app scaricate attraverso SHAHEEN-OS o degli sviluppatori di app; SHAHEEN-OS non ha alcuna affiliazione, collaborazione o collegamento con loro.</string>
     <string name="made_with_love">Fatto con <xliff:g id="heart_emoji">%1$s</xliff:g> in India</string>
     <string name="checking_updates">Controllo degli aggiornamenti in corso</string>
     <string name="available_spoof">Disponibile</string>
@@ -475,14 +475,14 @@
     <string name="account_default">Predefinito</string>
     <string name="account_remove">Rimuovi</string>
     <string name="account_remove_title">Rimuovere l\'account?</string>
-    <string name="account_remove_message">Rimuovere %1$s da Aurora Store?</string>
-    <string name="account_remove_last_message">Questo è il tuo unico account. Rimuoverlo terminerà la sessione e non potrai usare Aurora Store fino a quando non effettuerai di nuovo l\'accesso.</string>
+    <string name="account_remove_message">Rimuovere %1$s da SHAHEEN-OS?</string>
+    <string name="account_remove_last_message">Questo è il tuo unico account. Rimuoverlo terminerà la sessione e non potrai usare SHAHEEN-OS fino a quando non effettuerai di nuovo l\'accesso.</string>
     <string name="account_add">Aggiungi account</string>
     <string name="account_add_device">Account del dispositivo</string>
     <string name="account_add_google">Accedi con Google</string>
     <string name="account_add_anonymous">Aggiungi account anonimo</string>
     <string name="account_set_default_title">Cambiare l\'account predefinito?</string>
-    <string name="account_set_default_message">Aurora Store verrà riavviato per usare il nuovo account predefinito.</string>
+    <string name="account_set_default_message">SHAHEEN-OS verrà riavviato per usare il nuovo account predefinito.</string>
     <string name="account_switching">Cambio account…</string>
     <string name="account_adding">Aggiunta account…</string>
     <string name="account_refresh_all">Aggiorna tutti gli account</string>
@@ -508,16 +508,16 @@
     <string name="exodus_latest">Ultima</string>
     <string name="title_security">Sicurezza</string>
     <string name="app_lock_title">Blocco app</string>
-    <string name="app_lock_summary">Richiedi l\'autenticazione biometrica o blocco schermo per aprire Aurora Store.</string>
+    <string name="app_lock_summary">Richiedi l\'autenticazione biometrica o blocco schermo per aprire SHAHEEN-OS.</string>
     <string name="app_lock_no_credential">Configura prima un blocco dello schermo (PIN, modello, password o biometrico) sul dispositivo.</string>
-    <string name="app_lock_locked_message">L\'autenticazione è necessaria per accedere ad Aurora Store</string>
+    <string name="app_lock_locked_message">L\'autenticazione è necessaria per accedere ad SHAHEEN-OS</string>
     <string name="app_lock_unlock">Sblocca</string>
-    <string name="app_lock_prompt_title">Sblocca Aurora Store</string>
+    <string name="app_lock_prompt_title">Sblocca SHAHEEN-OS</string>
     <string name="app_lock_prompt_subtitle">Inserisci la sequenza di sblocco dello schermo del telefono, PIN, password o impronta digitale</string>
     <string name="confirm_deeplink_title">Conferma link esterni</string>
-    <string name="confirm_deeplink_summary">Chiedi prima di aprire un annuncio app da un link, impedendo agli annunci di avviare Aurora Store senza il tuo consenso.</string>
-    <string name="confirm_deeplink_sheet_title">Continuare per Aurora Store?</string>
-    <string name="confirm_deeplink_sheet_message">Un\'app esterna vuole aprire Aurora Store</string>
+    <string name="confirm_deeplink_summary">Chiedi prima di aprire un annuncio app da un link, impedendo agli annunci di avviare SHAHEEN-OS senza il tuo consenso.</string>
+    <string name="confirm_deeplink_sheet_title">Continuare per SHAHEEN-OS?</string>
+    <string name="confirm_deeplink_sheet_message">Un\'app esterna vuole aprire SHAHEEN-OS</string>
     <string name="confirm_deeplink_sheet_source">Aperto da %1$s</string>
     <string name="notification_channel_alerts">Errori e avvisi</string>
     <string name="notification_group_activity">Scaricamenti e aggiornamenti</string>
@@ -529,7 +529,7 @@
     <string name="tracker_warning_desc">Questo aggiornamento aggiunge tracker che non c\'erano nella versione installata:</string>
     <string name="pref_notification_categories">Categorie</string>
     <string name="pref_notification_disabled">Le notifiche sono disattivate</string>
-    <string name="pref_notification_disabled_desc">Tocca per abilitare le notifiche per Aurora Store</string>
+    <string name="pref_notification_disabled_desc">Tocca per abilitare le notifiche per SHAHEEN-OS</string>
     <string name="updates_incompatible_header">Aggiornamenti incompatibili</string>
     <string name="updates_incompatible_desc">Questi aggiornamenti delle app di sistema non possono essere installati su questo sistema operativo</string>
     <string name="updates_approval_header">Aggiornamenti che richiedono l\'approvazione</string>
@@ -559,7 +559,7 @@
     <string name="toast_fav_install_failed">Impossibile recuperare i dettagli dell\'app</string>
     <string name="status_installing">Installazione</string>
     <string name="status_installed">Installata</string>
-    <string name="updates_self_desc">È disponibile una nuova versione di Aurora Store</string>
+    <string name="updates_self_desc">È disponibile una nuova versione di SHAHEEN-OS</string>
     <string name="pref_theme_style_light">Chiaro</string>
     <string name="pref_theme_style_dark">Scuro</string>
     <string name="pref_theme_style_system">Uguale al sistema</string>

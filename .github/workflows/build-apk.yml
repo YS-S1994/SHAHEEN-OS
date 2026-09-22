@@ -1,0 +1,106 @@
+name: SHAHEEN-OS
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build SHAHEEN-OS APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout complete project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+
+      - name: Prepare Gradle
+        run: chmod +x ./gradlew
+
+      - name: Show environment
+        run: |
+          echo "===== JAVA ====="
+          java -version
+          echo
+          echo "===== GRADLE ====="
+          ./gradlew --version
+
+      - name: Clean build
+        run: ./gradlew clean --no-daemon --stacktrace
+
+      - name: Build SHAHEEN-OS Vanilla Debug APK
+        run: ./gradlew :app:assembleVanillaDebug --no-daemon --stacktrace
+
+      - name: Locate APK
+        run: |
+          echo "===== GENERATED APK FILES ====="
+          find app/build/outputs/apk -type f -name "*.apk" -print
+
+      - name: Verify APK
+        run: |
+          APK_COUNT=$(find app/build/outputs/apk -type f -name "*.apk" | wc -l)
+
+          if [ "$APK_COUNT" -eq 0 ]; then
+            echo "ERROR: No APK was generated."
+            exit 1
+          fi
+
+          echo "APK_COUNT=$APK_COUNT"
+
+          while IFS= read -r apk; do
+            echo
+            echo "APK: $apk"
+            ls -lh "$apk"
+            file "$apk"
+          done < <(find app/build/outputs/apk -type f -name "*.apk")
+
+      - name: Prepare release APK
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          mkdir -p release
+
+          APK=$(find app/build/outputs/apk -type f -name "*.apk" | head -n 1)
+
+          if [ -z "$APK" ]; then
+            echo "ERROR: APK not found."
+            exit 1
+          fi
+
+          cp "$APK" "release/SHAHEEN-OS-${GITHUB_REF_NAME}.apk"
+
+          echo "===== RELEASE FILE ====="
+          ls -lh release/
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SHAHEEN-OS-${{ github.sha }}
+          path: app/build/outputs/apk/**/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            release/SHAHEEN-OS-${GITHUB_REF_NAME}.apk \
+            --title "SHAHEEN-OS ${GITHUB_REF_NAME}" \
+            --generate-notes

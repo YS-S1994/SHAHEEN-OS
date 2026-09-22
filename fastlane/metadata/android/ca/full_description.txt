@@ -1,4 +1,4 @@
-L'Aurora Store es un client no oficial i de codi obert per a Google Play amb un disseny elegant. L'Aurora Store permet als usuaris baixar, actualitzar i cercar aplicacions com la Play Store. Funciona perfectamente amb/sense els serveis de Google Play o microG.
+L'SHAHEEN-OS es un client no oficial i de codi obert per a Google Play amb un disseny elegant. L'SHAHEEN-OS permet als usuaris baixar, actualitzar i cercar aplicacions com la Play Store. Funciona perfectamente amb/sense els serveis de Google Play o microG.
 
 <b>Features:</b>
 

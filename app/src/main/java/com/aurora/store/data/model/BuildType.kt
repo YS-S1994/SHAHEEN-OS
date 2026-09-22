@@ -3,7 +3,7 @@ package com.aurora.store.data.model
 import com.aurora.store.BuildConfig
 
 /**
- * Class representing build types for Aurora Store
+ * Class representing build types for SHAHEEN-OS
  */
 enum class BuildType(val packageName: String) {
     RELEASE("com.aurora.store"),

@@ -214,7 +214,7 @@ private fun SortFilterSheetPreview() {
         state = SortFilterState(),
         installers = mapOf(
             "com.android.vending" to "Google Play Store",
-            "com.aurora.store" to "Aurora Store",
+            "com.aurora.store" to "SHAHEEN-OS",
             "org.fdroid.fdroid" to "F-Droid"
         ),
         onStateChange = {},

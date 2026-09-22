@@ -27,7 +27,7 @@ class AppPreviewProvider : PreviewParameterProvider<App> {
         """
 
         private const val DESCRIPTION = """
-            <p>Aurora Store is an unofficial, FOSS client to Google Play with an elegant design. Aurora Store allows users to download, update, and search for apps like the Play Store. It works perfectly fine with or without Google Play Services or microG.</p>
+            <p>SHAHEEN-OS is an unofficial, FOSS client to Google Play with an elegant design. SHAHEEN-OS allows users to download, update, and search for apps like the Play Store. It works perfectly fine with or without Google Play Services or microG.</p>
             
             <p><strong>Features:</strong></p>
             
@@ -45,7 +45,7 @@ class AppPreviewProvider : PreviewParameterProvider<App> {
         get() = sequenceOf(
             App(
                 packageName = BuildConfig.APPLICATION_ID,
-                displayName = "Aurora Store",
+                displayName = "SHAHEEN-OS",
                 developerName = "Rahul Kumar Patel",
                 versionCode = BuildConfig.VERSION_CODE.toLong(),
                 versionName = BuildConfig.VERSION_NAME,

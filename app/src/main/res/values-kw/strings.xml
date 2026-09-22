@@ -11,9 +11,9 @@
     <string name="about_bitcoin_eth">Ethereum</string>
     <string name="about_bitcoin_eth_summary">Argevri dres Ethereum (ETH)</string>
     <string name="about_fdroid">F-Droid</string>
-    <string name="about_fdroid_summary">Kavos Aurora Store dres F-Droid.</string>
+    <string name="about_fdroid_summary">Kavos SHAHEEN-OS dres F-Droid.</string>
     <string name="about_gitlab">GitLab</string>
-    <string name="about_gitlab_summary">Kavos an kod Aurora Store a-dhia Aurora OSS war GitLab.</string>
+    <string name="about_gitlab_summary">Kavos an kod SHAHEEN-OS a-dhia Aurora OSS war GitLab.</string>
     <string name="about_libera">Liberapay</string>
     <string name="about_libera_summary">Bos unn tasek war Liberapay</string>
     <string name="about_paypal">PayPal</string>
@@ -21,7 +21,7 @@
     <string name="about_telegram">Telegram</string>
     <string name="about_telegram_summary">Omjunya an bagas Aurora Support rag omgussulyansow po profyansow.</string>
     <string name="about_xda">XDA Forums</string>
-    <string name="about_xda_summary">Gweles an neusen XDA Aurora Store rag omgussulyansow po profansyow.</string>
+    <string name="about_xda_summary">Gweles an neusen XDA SHAHEEN-OS rag omgussulyansow po profansyow.</string>
     <string name="account_anonymous">Dihanow</string>
     <string name="account_google">Google</string>
     <string name="account_login_using">Omgelmi ow devnydhya</string>

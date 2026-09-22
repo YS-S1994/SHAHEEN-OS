@@ -58,7 +58,8 @@ configure<ApplicationExtension> {
     }
 
     defaultConfig {
-        applicationId = "com.aurora.store"
+        buildConfigField("String", "SHAHEEN_URL", "\"https://shaheen94s.mooo.com\"")
+        applicationId = "com.shaheen.os"
         minSdk {
             version = release(23)
         }

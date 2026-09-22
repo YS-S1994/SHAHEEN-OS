@@ -1,10 +1,10 @@
-# Aurora Store Privacy Policy
+# SHAHEEN-OS Privacy Policy
 
 Last Updated: **16.10.2023**
 
 ## User Data sent to Google
 
-The following data is mandatory to make the Service function, all of which Google needs for **Aurora Store** to be able to receive required data:
+The following data is mandatory to make the Service function, all of which Google needs for **SHAHEEN-OS** to be able to receive required data:
 
 - IP Address, bound to network request
 - Timezone, MCC & MNC are stripped & replaced with a random value. (see [here](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/app/src/main/java/com/aurora/store/data/providers/NativeDeviceInfoProvider.kt?ref_type=heads#L104-105))
@@ -18,9 +18,9 @@ If you choose to use your own account, the following are added to the above:
 We do not store, process or sell any of the collected data above. 
 The data is sent to and processed by Google's servers directly untouched.
 
-All accounts being used within **Aurora Store** are saved onto the device as AAS Tokens & email pair for account verification. 
+All accounts being used within **SHAHEEN-OS** are saved onto the device as AAS Tokens & email pair for account verification. 
 
-**No passwords** are saved to Aurora Store or  Aurora Dispenser.
+**No passwords** are saved to SHAHEEN-OS or  Aurora Dispenser.
 
 ## Device Data sent to Google
 
@@ -75,7 +75,7 @@ All accounts being used within **Aurora Store** are saved onto the device as AAS
 - MCC: Mobile Country Code 
 - MNC: Mobile Network Code
 
-Above fields are sent to Google as encoded-protobuf, you can find a sample device config used in Aurora Store [here](https://gitlab.com/AuroraOSS/gplayapi/-/blob/master/lib/src/main/res/raw/gplayapi_px_7a.properties).
+Above fields are sent to Google as encoded-protobuf, you can find a sample device config used in SHAHEEN-OS [here](https://gitlab.com/AuroraOSS/gplayapi/-/blob/master/lib/src/main/res/raw/gplayapi_px_7a.properties).
 
 ------------------------------------------------------------------------
 
