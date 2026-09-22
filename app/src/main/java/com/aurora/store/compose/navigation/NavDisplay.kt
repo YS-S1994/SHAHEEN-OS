@@ -74,6 +74,7 @@ import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors
 import dagger.hilt.components.SingletonComponent
+import com.aurora.store.compose.ui.shaheen.ShaheenUpdaterScreen
 
 /**
  * Shared spring for the horizontal slide of both the entering and leaving screen. Using a single
@@ -203,6 +204,7 @@ fun NavDisplay(startDestination: NavKey) {
             Destination.UIPreference -> backstack.add(Screen.UIPreference)
             Destination.NotificationPreference -> backstack.add(Screen.NotificationPreference)
             Destination.UpdatesPreference -> backstack.add(Screen.UpdatesPreference)
+            Destination.ShaheenUpdater -> backstack.add(Screen.ShaheenUpdater)
             Destination.SourceFilters -> backstack.add(Screen.SourceFilters)
             Destination.SecurityPreference -> backstack.add(Screen.SecurityPreference)
         }
@@ -335,6 +337,7 @@ fun NavDisplay(startDestination: NavKey) {
             entry<Screen.UIPreference> { UIPreferenceScreen() }
             entry<Screen.NotificationPreference> { NotificationPreferenceScreen() }
             entry<Screen.UpdatesPreference> { UpdatesPreferenceScreen(onNavigateTo = ::navigate) }
+        entry<Screen.ShaheenUpdater> { ShaheenUpdaterScreen() }
             entry<Screen.SourceFilters> { SourceFiltersScreen() }
             entry<Screen.SecurityPreference> { SecurityPreferenceScreen() }
         }

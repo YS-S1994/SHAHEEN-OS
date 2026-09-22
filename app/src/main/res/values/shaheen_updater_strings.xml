@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="shaheen_updater_name">SHAHEEN-OS Auto Updater</string>
+    <string name="shaheen_updater_check">Check for updates</string>
+    <string name="shaheen_updater_downloading">Downloading update…</string>
+    <string name="shaheen_updater_ready">Update ready</string>
+    <string name="shaheen_updater_source_github">GitHub</string>
+    <string name="shaheen_updater_source_fdroid">F-Droid</string>
+    <string name="shaheen_updater_source_uptodown">Uptodown</string>
+    <string name="shaheen_updater_source_google_play">Google Play</string>
+    <string name="shaheen_updater_source_official">Official Developer</string>
+    <string name="shaheen_updater_server">SHAHEEN Update Server</string>
+
+</resources>

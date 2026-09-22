@@ -1,0 +1,58 @@
+{
+  "product": "SHAHEEN-OS",
+  "currentReleaseSource": "https://api.github.com/repos/YS-S1994/SHAHEEN-OS/releases/latest",
+  "releasePage": "https://github.com/YS-S1994/SHAHEEN-OS/releases/latest",
+  "server": "https://shaheen94s.mooo.com",
+  "serverManifest": "https://shaheen94s.mooo.com/shaheen-os/update.json",
+  "automaticCheck": true,
+  "checkOnStartup": true,
+  "checkIntervalHours": 12,
+  "automaticDownload": false,
+  "verifySha256": true,
+  "verifyPackageSignature": true,
+  "installAutomaticallyWhenAndroidAllows": true,
+  "sources": [
+    {
+      "name": "GitHub",
+      "type": "github",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "name": "Official SHAHEEN Server",
+      "type": "official",
+      "enabled": true,
+      "priority": 2
+    },
+    {
+      "name": "F-Droid",
+      "type": "fdroid",
+      "enabled": true,
+      "priority": 3
+    },
+    {
+      "name": "Uptodown",
+      "type": "uptodown",
+      "enabled": true,
+      "priority": 4
+    },
+    {
+      "name": "Google Play",
+      "type": "google_play",
+      "enabled": true,
+      "priority": 5
+    },
+    {
+      "name": "Google Chrome",
+      "type": "web",
+      "enabled": true,
+      "priority": 6
+    },
+    {
+      "name": "App Store",
+      "type": "ios_reference",
+      "enabled": true,
+      "priority": 7
+    }
+  ]
+}

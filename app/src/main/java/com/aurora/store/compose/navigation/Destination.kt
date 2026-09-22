@@ -46,6 +46,7 @@ sealed class Destination {
     data object UIPreference : Destination()
     data object NotificationPreference : Destination()
     data object UpdatesPreference : Destination()
+    data object ShaheenUpdater : Destination()
     data object SourceFilters : Destination()
     data object SecurityPreference : Destination()
 }

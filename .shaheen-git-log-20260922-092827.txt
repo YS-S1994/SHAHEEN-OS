@@ -1,0 +1,5 @@
+808b7e118 Fix missing SHAHEEN-OS about resources
+782228faa SHAHEEN-OS complete project
+80f9d817d Merge branch 'weblate-aurora-store-aurorastore-translations' into 'master'
+f880dd66c Translated using Weblate (Swedish)
+a4c19ea05 Translated using Weblate (Swedish)
