@@ -1,0 +1,79 @@
+name: Android CI (PR & branch builds)
+
+on:
+  push:
+    branches:
+      - modernization/branding-animation
+  pull_request:
+    branches:
+      - main
+      - modernization/branding-animation
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build:
+    name: Build, test and lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    env:
+      GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx2g"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+
+      - name: Install Android SDK components
+        uses: android-actions/setup-android@v3
+        with:
+          api-level: 37
+          components: "platform-tools,build-tools;33.0.2"
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Validate Gradle wrapper & show environment
+        run: |
+          echo "=== java ==="
+          java -version
+          echo
+          echo "=== gradle wrapper ==="
+          ./gradlew --version
+
+      - name: Clean
+        run: ./gradlew clean --no-daemon --stacktrace
+
+      - name: Assemble debug APK (vanilla)
+        run: ./gradlew :app:assembleVanillaDebug --no-daemon --stacktrace
+
+      - name: Run unit tests (JVM unit tests)
+        run: ./gradlew test --no-daemon --stacktrace
+
+      - name: Run lint
+        run: ./gradlew lint --no-daemon --stacktrace
+
+      - name: Locate APKs
+        run: |
+          echo "APKs produced:"
+          find app/build/outputs/apk -type f -name "*.apk" -print || true
+
+      - name: Upload APK artifacts
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: shaheen-apks-${{ github.sha }}
+          path: app/build/outputs/apk/**/*.apk
+          if-no-files-found: error
+          retention-days: 30
