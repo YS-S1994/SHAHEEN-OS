@@ -1,0 +1,62 @@
+name: GitHub Pages (deploy docs/)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-deploy"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.upload-pages-artifact.outputs.artifact_name }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate docs/ directory and index.html
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "ERROR: docs/ directory not found. Create docs/index.html before deploying."
+            exit 1
+          fi
+          if [ ! -f "docs/index.html" ]; then
+            echo "ERROR: docs/index.html missing. Add an index.html."
+            exit 1
+          fi
+          echo "docs/ validated. Files:"
+          find docs -maxdepth 2 -type f -print
+
+      - name: Setup Pages (configure)
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        id: upload-pages-artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
